@@ -18,6 +18,8 @@ var map = new mapboxgl.Map({
   antialias: true
 });
 
+//Comment
+
 fetch(
   "https://kstollergmu.carto.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM ncse_data_georeferenced"
 )
